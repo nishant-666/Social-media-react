@@ -1,0 +1,95 @@
+.register-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-card{
+    border-color: 1px solid #212121;
+    width: 50vw;
+    height: 40vh;
+    background-color: #fafafa;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px -1px #000000;
+    text-align: center;
+}
+
+.registration-card p{
+    font-size: 25px;
+    font-family: 'Rowdies', cursive;
+    margin-top: 10px;
+}
+
+.button-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-area-container{
+    padding: 20px;
+}
+
+.topbar-main{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 1px 1px 5px -1px #000000;
+}
+
+.top-menu{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.topmenu-items{
+    margin: 10px;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.textArea-container{
+    padding: 20px;
+    position: relative;
+}
+
+.btn-container{
+    position: absolute;
+    left: 20px;
+    margin-top: 20px;
+}
+
+.readStatuses{
+    position: relative;
+    top: 50px;
+}
+
+.Avatar{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.status-row-1{
+    display: flex;
+}
+
+.status-data{
+    margin-left: 10px;
+}
+
+.status-header{
+    margin-top: 10px;
+}
+
+.status-username{
+    font-size: 20px;
+}
+
+.status-timestamp{
+    margin-top: -10px;
+}
